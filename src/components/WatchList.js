@@ -13,6 +13,7 @@ import { useContext } from "react";
 
 const labels = watchlist.map((subArray) => subArray["name"]);
 
+
 const WatchList = () => {
   const data = {
     labels,
